@@ -34,31 +34,83 @@
 
   <!-- HERO -->
   <section class="hero">
+    <div class="hero-particles" id="particles"></div>
     <div class="hero-inner">
-      <p class="hero-tag">Desenvolvedor Freelancer</p>
-      <h1>Seu negócio invisível<br /><span>está perdendo dinheiro.</span></h1>
-      <p class="hero-sub">Eu crio sites, páginas de vendas e jogos no Roblox que colocam você na frente dos seus concorrentes — rápido, barato e sem dor de cabeça.</p>
-      <div class="hero-btns">
+      <p class="hero-tag anim-fade-down">Desenvolvedor Freelancer</p>
+      <h1 class="anim-fade-up">Seu negócio invisível<br /><span>está perdendo dinheiro.</span></h1>
+      <p class="hero-sub anim-fade-up delay-1">Eu crio sites, páginas de vendas e jogos no Roblox que colocam você na frente dos seus concorrentes — rápido, barato e sem dor de cabeça.</p>
+      <div class="hero-btns anim-fade-up delay-2">
         <a href="https://wa.me/5549989039673?text=Oi%20Ramos%2C%20vim%20pelo%20seu%20site%20e%20quero%20um%20orçamento!" target="_blank" rel="noopener noreferrer" class="btn-primary">
           <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16 0C7.163 0 0 7.163 0 16c0 2.822.736 5.469 2.027 7.769L0 32l8.469-2.003A15.94 15.94 0 0016 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm0 29.333a13.3 13.3 0 01-6.771-1.848l-.485-.288-5.027 1.188 1.214-4.899-.317-.503A13.282 13.282 0 012.667 16C2.667 8.636 8.636 2.667 16 2.667S29.333 8.636 29.333 16 23.364 29.333 16 29.333zm7.3-9.988c-.4-.2-2.366-1.167-2.733-1.3-.367-.133-.633-.2-.9.2-.267.4-1.033 1.3-1.267 1.567-.233.267-.467.3-.867.1-.4-.2-1.688-.623-3.214-1.983-1.187-1.06-1.989-2.37-2.222-2.77-.233-.4-.025-.617.175-.817.18-.18.4-.467.6-.7.2-.233.267-.4.4-.667.133-.267.067-.5-.033-.7-.1-.2-.9-2.167-1.233-2.967-.325-.78-.655-.673-.9-.686-.233-.013-.5-.016-.767-.016s-.7.1-1.067.5c-.367.4-1.4 1.367-1.4 3.333s1.433 3.867 1.633 4.133c.2.267 2.822 4.306 6.833 6.033.955.412 1.7.658 2.281.843.958.305 1.831.262 2.52.159.769-.114 2.366-.967 2.7-1.9.333-.933.333-1.733.233-1.9-.1-.167-.367-.267-.767-.467z"/></svg>
           Quero meu site agora
         </a>
         <a href="#servicos" class="btn-ghost">Ver o que eu faço</a>
       </div>
-      <div class="hero-badges">
+      <div class="hero-badges anim-fade-up delay-3">
         <span>&#9989; Entrega rápida</span>
         <span>&#9989; Preço que cabe no bolso</span>
         <span>&#9989; Funciona no celular e PC</span>
       </div>
     </div>
+    <div class="hero-scroll-hint">
+      <span></span>
+    </div>
   </section>
 
-  <!-- SERVICOS -->
-  <section id="servicos">
+  <!-- SHOWCASE SITES -->
+  <section class="showcase" id="servicos">
+    <div class="container showcase-inner">
+      <div class="showcase-text reveal">
+        <p class="section-label">Sites & Páginas de Vendas</p>
+        <h2 class="section-title">Cada detalhe feito<br />com carinho.</h2>
+        <p class="section-desc">Não entrego só um site — entrego uma experiência. Cada projeto é pensado do zero pra causar impacto, carregar rápido e converter visitante em cliente.</p>
+        <ul class="showcase-list">
+          <li><span class="check">&#10003;</span> Design moderno e responsivo</li>
+          <li><span class="check">&#10003;</span> Funciona perfeitamente no celular</li>
+          <li><span class="check">&#10003;</span> Rápido e otimizado</li>
+          <li><span class="check">&#10003;</span> Formulário de contato integrado</li>
+        </ul>
+        <a href="https://wa.me/5549989039673?text=Oi%20Ramos%2C%20quero%20um%20site!" target="_blank" rel="noopener noreferrer" class="btn-primary">Quero um site assim</a>
+      </div>
+      <div class="showcase-img reveal delay-1">
+        <div class="img-frame">
+          <img src="https://mb.web.sapo.io/6ae622b688b0e25f453e0ea63330991d58f51479.jpg" alt="Desenvolvimento de sites feito com carinho" loading="lazy" />
+          <div class="img-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOWCASE ROBLOX -->
+  <section class="showcase showcase-reverse bg-alt">
+    <div class="container showcase-inner">
+      <div class="showcase-img reveal">
+        <div class="img-frame">
+          <img src="https://prod.docsiteassets.roblox.com/assets/landing/get-started/studio.png" alt="Programação de jogos no Roblox Studio" loading="lazy" />
+          <div class="img-glow"></div>
+        </div>
+      </div>
+      <div class="showcase-text reveal delay-1">
+        <p class="section-label">Jogos no Roblox</p>
+        <h2 class="section-title">Da ideia ao jogo<br />funcionando de verdade.</h2>
+        <p class="section-desc">Programo no Roblox Studio usando Lua. Scripts, mecânicas, sistemas de inventário, NPCs, mapas — tudo que o seu jogo precisa pra ficar incrível e fazer os jogadores voltarem sempre.</p>
+        <ul class="showcase-list">
+          <li><span class="check">&#10003;</span> Scripts e mecânicas em Lua</li>
+          <li><span class="check">&#10003;</span> Sistemas completos de gameplay</li>
+          <li><span class="check">&#10003;</span> NPCs, inventários e muito mais</li>
+          <li><span class="check">&#10003;</span> Suporte durante todo o projeto</li>
+        </ul>
+        <a href="https://wa.me/5549989039673?text=Oi%20Ramos%2C%20quero%20desenvolver%20um%20jogo%20no%20Roblox!" target="_blank" rel="noopener noreferrer" class="btn-primary">Quero meu jogo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICOS CARDS -->
+  <section class="servicos-section">
     <div class="container">
-      <p class="section-label">O que eu faço</p>
-      <h2 class="section-title">Escolha a arma certa<br />pro seu negócio crescer.</h2>
-      <p class="section-sub">Cada serviço foi feito pra resolver um problema real. Me chama e a gente resolve o seu.</p>
+      <p class="section-label center-text">O que eu faço</p>
+      <h2 class="section-title center-text">Escolha a arma certa<br />pro seu negócio crescer.</h2>
+      <p class="section-sub center-text">Cada serviço foi feito pra resolver um problema real. Me chama e a gente resolve o seu.</p>
 
       <div class="cards">
         <div class="card reveal">
@@ -68,7 +120,7 @@
           <a href="https://wa.me/5549989039673?text=Oi%20Ramos%2C%20quero%20um%20site!" target="_blank" rel="noopener noreferrer" class="card-link">Quero um site &rarr;</a>
         </div>
 
-        <div class="card card-destaque reveal">
+        <div class="card card-destaque reveal delay-1">
           <div class="card-badge">Mais pedido</div>
           <div class="card-icon">&#128722;</div>
           <h3>Página de Vendas</h3>
@@ -76,14 +128,14 @@
           <a href="https://wa.me/5549989039673?text=Oi%20Ramos%2C%20quero%20uma%20p%C3%A1gina%20de%20vendas!" target="_blank" rel="noopener noreferrer" class="card-link">Quero uma página &rarr;</a>
         </div>
 
-        <div class="card reveal">
+        <div class="card reveal delay-2">
           <div class="card-icon">&#127918;</div>
           <h3>Jogos no Roblox</h3>
           <p>Tem uma ideia de jogo no Roblox? Eu programo. Scripts, mecânicas, sistemas e tudo que o seu jogo precisa pra ficar incrível.</p>
           <a href="https://wa.me/5549989039673?text=Oi%20Ramos%2C%20quero%20desenvolver%20um%20jogo%20no%20Roblox!" target="_blank" rel="noopener noreferrer" class="card-link">Quero um jogo &rarr;</a>
         </div>
 
-        <div class="card reveal">
+        <div class="card reveal delay-3">
           <div class="card-icon">&#128161;</div>
           <h3>Tem outra ideia?</h3>
           <p>Não importa o que você imaginou — se envolve código e internet, eu provavelmente consigo construir. Me conta.</p>
@@ -95,10 +147,10 @@
 
   <!-- COMO FUNCIONA -->
   <section id="como-funciona" class="bg-alt">
-    <div class="container center">
+    <div class="container center-text">
       <p class="section-label">Processo</p>
       <h2 class="section-title">Simples assim.<br />Sem enrolação.</h2>
-      <p class="section-sub">Do primeiro oi até o projeto no ar — você não vai precisar entender nada de tecnologia.</p>
+      <p class="section-sub" style="margin:0 auto 48px;">Do primeiro oi até o projeto no ar — você não vai precisar entender nada de tecnologia.</p>
 
       <div class="steps">
         <div class="step reveal">
@@ -107,19 +159,19 @@
           <p>Manda uma mensagem no WhatsApp. Pode ser uma ideia vaga, eu entendo.</p>
         </div>
         <div class="step-arrow">&#8594;</div>
-        <div class="step reveal">
+        <div class="step reveal delay-1">
           <div class="step-num">02</div>
           <h3>Orçamento na hora</h3>
           <p>Te respondo rápido com o valor e o prazo. Sem surpresas, sem letra miúda.</p>
         </div>
         <div class="step-arrow">&#8594;</div>
-        <div class="step reveal">
+        <div class="step reveal delay-2">
           <div class="step-num">03</div>
           <h3>Eu desenvolvo</h3>
           <p>Coloco a mão na massa. Você acompanha tudo e pode pedir ajustes.</p>
         </div>
         <div class="step-arrow">&#8594;</div>
-        <div class="step reveal">
+        <div class="step reveal delay-3">
           <div class="step-num">04</div>
           <h3>Entrega pronta</h3>
           <p>Projeto revisado, aprovado por você e entregue. O seu negócio finalmente online.</p>
@@ -130,10 +182,10 @@
 
   <!-- PRECO -->
   <section id="preco">
-    <div class="container center">
+    <div class="container center-text">
       <p class="section-label">Investimento</p>
       <h2 class="section-title">Qualidade profissional<br />por um preço que você não vai acreditar.</h2>
-      <p class="section-sub">Cada projeto é único. Me chama — o orçamento é na hora e vai te surpreender.</p>
+      <p class="section-sub" style="margin:0 auto 44px;">Cada projeto é único. Me chama — o orçamento é na hora e vai te surpreender.</p>
 
       <div class="preco-grid">
         <div class="preco-card reveal">
@@ -149,7 +201,7 @@
           <a href="https://wa.me/5549989039673?text=Oi%20Ramos%2C%20quero%20or%C3%A7amento%20de%20site!" target="_blank" rel="noopener noreferrer" class="btn-outline">Pedir orçamento</a>
         </div>
 
-        <div class="preco-card preco-destaque reveal">
+        <div class="preco-card preco-destaque reveal delay-1">
           <div class="preco-tag">Mais pedido</div>
           <div class="preco-icon">&#128722;</div>
           <h3>Página de Vendas</h3>
@@ -163,7 +215,7 @@
           <a href="https://wa.me/5549989039673?text=Oi%20Ramos%2C%20quero%20or%C3%A7amento%20de%20p%C3%A1gina%20de%20vendas!" target="_blank" rel="noopener noreferrer" class="btn-primary">Pedir orçamento</a>
         </div>
 
-        <div class="preco-card reveal">
+        <div class="preco-card reveal delay-2">
           <div class="preco-icon">&#127918;</div>
           <h3>Jogo no Roblox</h3>
           <p>Projetos customizados com orçamento sob medida. Me conta sua ideia que a gente resolve.</p>
@@ -189,11 +241,11 @@
 
   <!-- CONTATO -->
   <section id="contato" class="bg-cta">
-    <div class="container center">
+    <div class="container center-text">
       <p class="section-label">Contato</p>
-      <h2 class="cta-title">Cada dia sem site<br />é um dia perdendo cliente.</h2>
-      <p class="cta-sub">Não deixa pra amanhã. Me chama agora no WhatsApp, me conta o que você precisa e eu te respondo com o orçamento na hora.</p>
-      <a href="https://wa.me/5549989039673?text=Oi%20Ramos%2C%20vim%20pelo%20seu%20site%20e%20quero%20um%20or%C3%A7amento!" target="_blank" rel="noopener noreferrer" class="btn-whatsapp">
+      <h2 class="cta-title reveal">Cada dia sem site<br />é um dia perdendo cliente.</h2>
+      <p class="cta-sub reveal">Não deixa pra amanhã. Me chama agora no WhatsApp, me conta o que você precisa e eu te respondo com o orçamento na hora.</p>
+      <a href="https://wa.me/5549989039673?text=Oi%20Ramos%2C%20vim%20pelo%20seu%20site%20e%20quero%20um%20or%C3%A7amento!" target="_blank" rel="noopener noreferrer" class="btn-whatsapp reveal">
         <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16 0C7.163 0 0 7.163 0 16c0 2.822.736 5.469 2.027 7.769L0 32l8.469-2.003A15.94 15.94 0 0016 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm0 29.333a13.3 13.3 0 01-6.771-1.848l-.485-.288-5.027 1.188 1.214-4.899-.317-.503A13.282 13.282 0 012.667 16C2.667 8.636 8.636 2.667 16 2.667S29.333 8.636 29.333 16 23.364 29.333 16 29.333zm7.3-9.988c-.4-.2-2.366-1.167-2.733-1.3-.367-.133-.633-.2-.9.2-.267.4-1.033 1.3-1.267 1.567-.233.267-.467.3-.867.1-.4-.2-1.688-.623-3.214-1.983-1.187-1.06-1.989-2.37-2.222-2.77-.233-.4-.025-.617.175-.817.18-.18.4-.467.6-.7.2-.233.267-.4.4-.667.133-.267.067-.5-.033-.7-.1-.2-.9-2.167-1.233-2.967-.325-.78-.655-.673-.9-.686-.233-.013-.5-.016-.767-.016s-.7.1-1.067.5c-.367.4-1.4 1.367-1.4 3.333s1.433 3.867 1.633 4.133c.2.267 2.822 4.306 6.833 6.033.955.412 1.7.658 2.281.843.958.305 1.831.262 2.52.159.769-.114 2.366-.967 2.7-1.9.333-.933.333-1.733.233-1.9-.1-.167-.367-.267-.767-.467z"/></svg>
         Chamar no WhatsApp
       </a>
